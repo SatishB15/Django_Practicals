@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "practical_20.apps.Practical20Config",
+    "practical_22.apps.Practical22Config",
     "practical_21",
 ]
 
@@ -71,8 +72,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Django.wsgi.application'
-
-
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
@@ -82,7 +81,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
